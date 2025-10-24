@@ -221,7 +221,7 @@ for epoch in range(1):
     model.train()
 
 # 모델 저장
-SAVE_DIR = "./qwen2_5_vl_3b_lora"
+SAVE_DIR = "./changuk_model"
 model.save_pretrained(SAVE_DIR)
 processor.save_pretrained(SAVE_DIR)
 print("Saved:", SAVE_DIR)
