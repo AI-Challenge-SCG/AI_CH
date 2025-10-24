@@ -22,7 +22,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print("Device:", device)
 
 # 사전 학습 모델 정의
-MODEL_ID = "Qwen/Qwen2.5-VL-3B-Instruct"
+MODEL_ID = "Salesforce/blip2-flan-t5-xl"
 IMAGE_SIZE = 384
 MAX_NEW_TOKENS = 8
 SEED = 42
