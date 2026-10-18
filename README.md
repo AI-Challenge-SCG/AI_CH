@@ -3,7 +3,7 @@
 
 ### 1. 4-bit Quantization & LoRA
 
-GPU 메모리 사용량을 줄이기 위해 Qwen 기반 VLM에
+A100 GPU 메모리 사용량을 줄이기 위해 Qwen 기반 VLM에
 4-bit NF4 양자화와 LoRA 파인튜닝을 적용했습니다.
 
 #### 4-bit Quantization
